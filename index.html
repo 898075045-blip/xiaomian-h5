@@ -372,6 +372,12 @@
   .signup-info .row .k { opacity: 0.7; }
   .signup-info .row .v { font-weight: 500; }
   .qr-row { display: flex; justify-content: center; gap: 14px; }
+  .qr-img {
+    width: 140px; height: 140px; background: #fff;
+    border-radius: 10px; margin: 0 auto 10px;
+    padding: 6px; box-sizing: border-box;
+    display: block;
+  }
   .qr-placeholder {
     width: 92px; height: 92px; background: #fff;
     border: 2px dashed #e0c9aa;
@@ -636,8 +642,7 @@
     <div class="sec-label" data-editable>SIGN UP</div>
 
     <div class="qr-row">
-      <div class="qr-placeholder" data-editable>报名二维码<br>（占位）</div>
-      <div class="qr-placeholder" data-editable>报名二维码<br>（占位）</div>
+      <img class="qr-img" src="assets/qrcode.png" alt="校招门户二维码">
     </div>
     <p class="qr-tip" data-editable>扫码报名</p>
 
